@@ -10,14 +10,22 @@
 
 @implementation ITImageTableViewCell
 
-- (void)awakeFromNib {
-    // Initialization code
-}
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    
     [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
 }
+
+
+-(void)prepareForReuse{
+    
+    self.imageIconOutlet.image = [UIImage imageNamed:@"defaultImage"];
+    
+    self.sizeLabelOutlet.text = [NSString stringWithFormat:@"Size:--"];
+    
+    self.idLabelOutlet.text = [NSString stringWithFormat: @"Image Id -"];
+}
+
 
 @end

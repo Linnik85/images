@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18127EA31B45CF4C00B820DF /* ITServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EA21B45CF4C00B820DF /* ITServerManager.m */; };
+		18127EAA1B45CFAF00B820DF /* ITImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EA71B45CFAE00B820DF /* ITImageItem.m */; };
+		18127EAB1B45CFAF00B820DF /* ITModelImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EA91B45CFAE00B820DF /* ITModelImages.m */; };
+		18127EAF1B45D02B00B820DF /* ITSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EAE1B45D02B00B820DF /* ITSettings.m */; };
+		18127EB31B45DA7C00B820DF /* ITImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EB21B45DA7C00B820DF /* ITImagesViewController.m */; };
+		18C7F4FF1B45840C0015B4D5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7F4FE1B45840C0015B4D5 /* Accounts.framework */; };
+		18C7F5011B4584230015B4D5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7F5001B4584230015B4D5 /* Security.framework */; };
+		18C7F5031B45845A0015B4D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7F5021B45845A0015B4D5 /* CoreGraphics.framework */; };
+		18C7F5051B4584640015B4D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7F5041B4584640015B4D5 /* Foundation.framework */; };
+		18C7F5071B4584760015B4D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7F5061B4584760015B4D5 /* UIKit.framework */; };
+		18C7F5091B45854F0015B4D5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7F5081B45854F0015B4D5 /* libxml2.dylib */; };
+		18C81E751B464DC1005DC8BC /* ITImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E741B464DC1005DC8BC /* ITImageTableViewCell.m */; };
+		18C81E7B1B4668C4005DC8BC /* UIImage+SCCropImageToCircleWithBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E781B4668C4005DC8BC /* UIImage+SCCropImageToCircleWithBorder.m */; };
+		18C81E801B466D30005DC8BC /* ITImagePresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E7F1B466D30005DC8BC /* ITImagePresentViewController.m */; };
+		18C81E881B469331005DC8BC /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E831B469331005DC8BC /* SVIndefiniteAnimatedView.m */; };
+		18C81E891B469331005DC8BC /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18C81E851B469331005DC8BC /* SVProgressHUD.bundle */; };
+		18C81E8A1B469331005DC8BC /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E871B469331005DC8BC /* SVProgressHUD.m */; };
+		18C81E8C1B4699F1005DC8BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C81E8B1B4699F1005DC8BC /* CoreData.framework */; };
+		18C81E8E1B46BC0F005DC8BC /* SOAPEngine64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C81E8D1B46BC0F005DC8BC /* SOAPEngine64.framework */; };
+		18C81E9C1B46F36C005DC8BC /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E911B46F36C005DC8BC /* JTSAnimatedGIFUtility.m */; };
+		18C81E9D1B46F36C005DC8BC /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E931B46F36C005DC8BC /* JTSImageInfo.m */; };
+		18C81E9E1B46F36C005DC8BC /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E951B46F36C005DC8BC /* JTSImageViewController.m */; };
+		18C81E9F1B46F36C005DC8BC /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E971B46F36C005DC8BC /* JTSSimpleImageDownloader.m */; };
+		18C81EA01B46F36C005DC8BC /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E991B46F36C005DC8BC /* UIApplication+JTSImageViewController.m */; };
+		18C81EA11B46F36C005DC8BC /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C81E9B1B46F36C005DC8BC /* UIImage+JTSImageEffects.m */; };
+		18C81EA31B46FA60005DC8BC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18C81EA21B46FA60005DC8BC /* Settings.bundle */; };
 		18CF2BC61B452FFA00288715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF2BC51B452FFA00288715 /* main.m */; };
 		18CF2BC91B452FFA00288715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF2BC81B452FFA00288715 /* AppDelegate.m */; };
-		18CF2BCC1B452FFA00288715 /* images.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CF2BCA1B452FFA00288715 /* images.xcdatamodeld */; };
-		18CF2BCF1B452FFA00288715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF2BCE1B452FFA00288715 /* ViewController.m */; };
-		18CF2BD21B452FFA00288715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF2BD01B452FFA00288715 /* Main.storyboard */; };
+		18CF2BD21B452FFA00288715 /* Main-ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF2BD01B452FFA00288715 /* Main-ipad.storyboard */; };
 		18CF2BD41B452FFA00288715 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF2BD31B452FFA00288715 /* Images.xcassets */; };
 		18CF2BD71B452FFA00288715 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CF2BD51B452FFA00288715 /* LaunchScreen.xib */; };
 		18CF2BE31B452FFB00288715 /* imagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF2BE21B452FFB00288715 /* imagesTests.m */; };
+		18CF2BED1B4530A100288715 /* Main-iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF2BEC1B4530A100288715 /* Main-iphone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +53,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18127EA11B45CF4C00B820DF /* ITServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITServerManager.h; sourceTree = "<group>"; };
+		18127EA21B45CF4C00B820DF /* ITServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITServerManager.m; sourceTree = "<group>"; };
+		18127EA61B45CFAE00B820DF /* ITImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITImageItem.h; sourceTree = "<group>"; };
+		18127EA71B45CFAE00B820DF /* ITImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITImageItem.m; sourceTree = "<group>"; };
+		18127EA81B45CFAE00B820DF /* ITModelImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITModelImages.h; sourceTree = "<group>"; };
+		18127EA91B45CFAE00B820DF /* ITModelImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITModelImages.m; sourceTree = "<group>"; };
+		18127EAD1B45D02B00B820DF /* ITSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITSettings.h; sourceTree = "<group>"; };
+		18127EAE1B45D02B00B820DF /* ITSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITSettings.m; sourceTree = "<group>"; };
+		18127EB11B45DA7C00B820DF /* ITImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITImagesViewController.h; sourceTree = "<group>"; };
+		18127EB21B45DA7C00B820DF /* ITImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITImagesViewController.m; sourceTree = "<group>"; };
+		18C7F4FE1B45840C0015B4D5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		18C7F5001B4584230015B4D5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18C7F5021B45845A0015B4D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18C7F5041B4584640015B4D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18C7F5061B4584760015B4D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18C7F5081B45854F0015B4D5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		18C81E731B464DC1005DC8BC /* ITImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITImageTableViewCell.h; sourceTree = "<group>"; };
+		18C81E741B464DC1005DC8BC /* ITImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITImageTableViewCell.m; sourceTree = "<group>"; };
+		18C81E771B4668C3005DC8BC /* UIImage+SCCropImageToCircleWithBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SCCropImageToCircleWithBorder.h"; sourceTree = "<group>"; };
+		18C81E781B4668C4005DC8BC /* UIImage+SCCropImageToCircleWithBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SCCropImageToCircleWithBorder.m"; sourceTree = "<group>"; };
+		18C81E7E1B466D30005DC8BC /* ITImagePresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITImagePresentViewController.h; sourceTree = "<group>"; };
+		18C81E7F1B466D30005DC8BC /* ITImagePresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITImagePresentViewController.m; sourceTree = "<group>"; };
+		18C81E821B469331005DC8BC /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		18C81E831B469331005DC8BC /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		18C81E841B469331005DC8BC /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		18C81E851B469331005DC8BC /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		18C81E861B469331005DC8BC /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		18C81E871B469331005DC8BC /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		18C81E8B1B4699F1005DC8BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18C81E8D1B46BC0F005DC8BC /* SOAPEngine64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SOAPEngine64.framework; sourceTree = "<group>"; };
+		18C81E901B46F36C005DC8BC /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		18C81E911B46F36C005DC8BC /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		18C81E921B46F36C005DC8BC /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
+		18C81E931B46F36C005DC8BC /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
+		18C81E941B46F36C005DC8BC /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
+		18C81E951B46F36C005DC8BC /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
+		18C81E961B46F36C005DC8BC /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		18C81E971B46F36C005DC8BC /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		18C81E981B46F36C005DC8BC /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		18C81E991B46F36C005DC8BC /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		18C81E9A1B46F36C005DC8BC /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		18C81E9B1B46F36C005DC8BC /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		18C81EA21B46FA60005DC8BC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 		18CF2BC01B452FFA00288715 /* images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = images.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CF2BC41B452FFA00288715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CF2BC51B452FFA00288715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CF2BC71B452FFA00288715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CF2BC81B452FFA00288715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18CF2BCB1B452FFA00288715 /* images.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = images.xcdatamodel; sourceTree = "<group>"; };
-		18CF2BCD1B452FFA00288715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18CF2BCE1B452FFA00288715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18CF2BD11B452FFA00288715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CF2BD11B452FFA00288715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-ipad.storyboard"; sourceTree = "<group>"; };
 		18CF2BD31B452FFA00288715 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18CF2BD61B452FFA00288715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18CF2BDC1B452FFA00288715 /* imagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CF2BE11B452FFA00288715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CF2BE21B452FFB00288715 /* imagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imagesTests.m; sourceTree = "<group>"; };
+		18CF2BEC1B4530A100288715 /* Main-iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iphone.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +115,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C81E8C1B4699F1005DC8BC /* CoreData.framework in Frameworks */,
+				18C7F5091B45854F0015B4D5 /* libxml2.dylib in Frameworks */,
+				18C7F5071B4584760015B4D5 /* UIKit.framework in Frameworks */,
+				18C7F5051B4584640015B4D5 /* Foundation.framework in Frameworks */,
+				18C7F5031B45845A0015B4D5 /* CoreGraphics.framework in Frameworks */,
+				18C81E8E1B46BC0F005DC8BC /* SOAPEngine64.framework in Frameworks */,
+				18C7F5011B4584230015B4D5 /* Security.framework in Frameworks */,
+				18C7F4FF1B45840C0015B4D5 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +136,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18127EA41B45CF5500B820DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18127EA11B45CF4C00B820DF /* ITServerManager.h */,
+				18127EA21B45CF4C00B820DF /* ITServerManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		18127EA51B45CF8300B820DF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				18C81E761B464DCA005DC8BC /* Widgets */,
+				18127EB11B45DA7C00B820DF /* ITImagesViewController.h */,
+				18127EB21B45DA7C00B820DF /* ITImagesViewController.m */,
+				18C81E7E1B466D30005DC8BC /* ITImagePresentViewController.h */,
+				18C81E7F1B466D30005DC8BC /* ITImagePresentViewController.m */,
+				18CF2BEC1B4530A100288715 /* Main-iphone.storyboard */,
+				18CF2BD01B452FFA00288715 /* Main-ipad.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		18127EAC1B45CFEF00B820DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18127EA61B45CFAE00B820DF /* ITImageItem.h */,
+				18127EA71B45CFAE00B820DF /* ITImageItem.m */,
+				18127EA81B45CFAE00B820DF /* ITModelImages.h */,
+				18127EA91B45CFAE00B820DF /* ITModelImages.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		18127EB01B45D03B00B820DF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				18127EAD1B45D02B00B820DF /* ITSettings.h */,
+				18127EAE1B45D02B00B820DF /* ITSettings.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		18C7F52F1B45ADAB0015B4D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C81E8F1B46F36C005DC8BC /* JTSImageViewController */,
+				18C81E8D1B46BC0F005DC8BC /* SOAPEngine64.framework */,
+				18C81E811B469331005DC8BC /* SVProgressHUD */,
+				18C81E8B1B4699F1005DC8BC /* CoreData.framework */,
+				18C7F5081B45854F0015B4D5 /* libxml2.dylib */,
+				18C7F5061B4584760015B4D5 /* UIKit.framework */,
+				18C7F5041B4584640015B4D5 /* Foundation.framework */,
+				18C7F5021B45845A0015B4D5 /* CoreGraphics.framework */,
+				18C7F5001B4584230015B4D5 /* Security.framework */,
+				18C7F4FE1B45840C0015B4D5 /* Accounts.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		18C81E761B464DCA005DC8BC /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				18C81E731B464DC1005DC8BC /* ITImageTableViewCell.h */,
+				18C81E741B464DC1005DC8BC /* ITImageTableViewCell.m */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		18C81E7D1B4668C9005DC8BC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18C81E771B4668C3005DC8BC /* UIImage+SCCropImageToCircleWithBorder.h */,
+				18C81E781B4668C4005DC8BC /* UIImage+SCCropImageToCircleWithBorder.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		18C81E811B469331005DC8BC /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18C81E821B469331005DC8BC /* SVIndefiniteAnimatedView.h */,
+				18C81E831B469331005DC8BC /* SVIndefiniteAnimatedView.m */,
+				18C81E841B469331005DC8BC /* SVProgressHUD-Prefix.pch */,
+				18C81E851B469331005DC8BC /* SVProgressHUD.bundle */,
+				18C81E861B469331005DC8BC /* SVProgressHUD.h */,
+				18C81E871B469331005DC8BC /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		18C81E8F1B46F36C005DC8BC /* JTSImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18C81E901B46F36C005DC8BC /* JTSAnimatedGIFUtility.h */,
+				18C81E911B46F36C005DC8BC /* JTSAnimatedGIFUtility.m */,
+				18C81E921B46F36C005DC8BC /* JTSImageInfo.h */,
+				18C81E931B46F36C005DC8BC /* JTSImageInfo.m */,
+				18C81E941B46F36C005DC8BC /* JTSImageViewController.h */,
+				18C81E951B46F36C005DC8BC /* JTSImageViewController.m */,
+				18C81E961B46F36C005DC8BC /* JTSSimpleImageDownloader.h */,
+				18C81E971B46F36C005DC8BC /* JTSSimpleImageDownloader.m */,
+				18C81E981B46F36C005DC8BC /* UIApplication+JTSImageViewController.h */,
+				18C81E991B46F36C005DC8BC /* UIApplication+JTSImageViewController.m */,
+				18C81E9A1B46F36C005DC8BC /* UIImage+JTSImageEffects.h */,
+				18C81E9B1B46F36C005DC8BC /* UIImage+JTSImageEffects.m */,
+			);
+			name = JTSImageViewController;
+			path = Source;
+			sourceTree = "<group>";
+		};
 		18CF2BB71B452FFA00288715 = {
 			isa = PBXGroup;
 			children = (
@@ -83,14 +269,16 @@
 		18CF2BC21B452FFA00288715 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				18C81E7D1B4668C9005DC8BC /* Category */,
+				18127EB01B45D03B00B820DF /* Settings */,
+				18127EAC1B45CFEF00B820DF /* Models */,
+				18127EA41B45CF5500B820DF /* Network */,
+				18127EA51B45CF8300B820DF /* Interface */,
 				18CF2BC71B452FFA00288715 /* AppDelegate.h */,
 				18CF2BC81B452FFA00288715 /* AppDelegate.m */,
-				18CF2BCD1B452FFA00288715 /* ViewController.h */,
-				18CF2BCE1B452FFA00288715 /* ViewController.m */,
-				18CF2BD01B452FFA00288715 /* Main.storyboard */,
 				18CF2BD31B452FFA00288715 /* Images.xcassets */,
 				18CF2BD51B452FFA00288715 /* LaunchScreen.xib */,
-				18CF2BCA1B452FFA00288715 /* images.xcdatamodeld */,
+				18C7F52F1B45ADAB0015B4D5 /* Frameworks */,
 				18CF2BC31B452FFA00288715 /* Supporting Files */,
 			);
 			path = images;
@@ -99,6 +287,7 @@
 		18CF2BC31B452FFA00288715 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18C81EA21B46FA60005DC8BC /* Settings.bundle */,
 				18CF2BC41B452FFA00288715 /* Info.plist */,
 				18CF2BC51B452FFA00288715 /* main.m */,
 			);
@@ -202,8 +391,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CF2BD21B452FFA00288715 /* Main.storyboard in Resources */,
+				18C81E891B469331005DC8BC /* SVProgressHUD.bundle in Resources */,
+				18CF2BD21B452FFA00288715 /* Main-ipad.storyboard in Resources */,
+				18CF2BED1B4530A100288715 /* Main-iphone.storyboard in Resources */,
 				18CF2BD71B452FFA00288715 /* LaunchScreen.xib in Resources */,
+				18C81EA31B46FA60005DC8BC /* Settings.bundle in Resources */,
 				18CF2BD41B452FFA00288715 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +414,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C81E751B464DC1005DC8BC /* ITImageTableViewCell.m in Sources */,
+				18C81EA01B46F36C005DC8BC /* UIApplication+JTSImageViewController.m in Sources */,
 				18CF2BC91B452FFA00288715 /* AppDelegate.m in Sources */,
-				18CF2BCC1B452FFA00288715 /* images.xcdatamodeld in Sources */,
-				18CF2BCF1B452FFA00288715 /* ViewController.m in Sources */,
+				18C81E9F1B46F36C005DC8BC /* JTSSimpleImageDownloader.m in Sources */,
+				18127EA31B45CF4C00B820DF /* ITServerManager.m in Sources */,
+				18C81E9C1B46F36C005DC8BC /* JTSAnimatedGIFUtility.m in Sources */,
+				18C81EA11B46F36C005DC8BC /* UIImage+JTSImageEffects.m in Sources */,
+				18C81E9D1B46F36C005DC8BC /* JTSImageInfo.m in Sources */,
+				18C81E9E1B46F36C005DC8BC /* JTSImageViewController.m in Sources */,
+				18C81E7B1B4668C4005DC8BC /* UIImage+SCCropImageToCircleWithBorder.m in Sources */,
+				18127EB31B45DA7C00B820DF /* ITImagesViewController.m in Sources */,
+				18C81E801B466D30005DC8BC /* ITImagePresentViewController.m in Sources */,
 				18CF2BC61B452FFA00288715 /* main.m in Sources */,
+				18127EAF1B45D02B00B820DF /* ITSettings.m in Sources */,
+				18C81E8A1B469331005DC8BC /* SVProgressHUD.m in Sources */,
+				18127EAB1B45CFAF00B820DF /* ITModelImages.m in Sources */,
+				18127EAA1B45CFAF00B820DF /* ITImageItem.m in Sources */,
+				18C81E881B469331005DC8BC /* SVIndefiniteAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,12 +454,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18CF2BD01B452FFA00288715 /* Main.storyboard */ = {
+		18CF2BD01B452FFA00288715 /* Main-ipad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				18CF2BD11B452FFA00288715 /* Base */,
 			);
-			name = Main.storyboard;
+			name = "Main-ipad.storyboard";
 			sourceTree = "<group>";
 		};
 		18CF2BD51B452FFA00288715 /* LaunchScreen.xib */ = {
@@ -353,9 +559,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = images/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -363,9 +574,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = images/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -422,6 +638,7 @@
 				18CF2BE81B452FFB00288715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18CF2BE91B452FFB00288715 /* Build configuration list for PBXNativeTarget "imagesTests" */ = {
 			isa = XCConfigurationList;
@@ -430,21 +647,9 @@
 				18CF2BEB1B452FFB00288715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		18CF2BCA1B452FFA00288715 /* images.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				18CF2BCB1B452FFA00288715 /* images.xcdatamodel */,
-			);
-			currentVersion = 18CF2BCB1B452FFA00288715 /* images.xcdatamodel */;
-			path = images.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 18CF2BB81B452FFA00288715 /* Project object */;
 }

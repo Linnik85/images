@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ITImagesViewController : UIViewController
+@interface ITImagesViewController : UIViewController <UITableViewDataSource,UITabBarDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+- (IBAction)refreshDataAction:(id)sender;
+
 
 @end

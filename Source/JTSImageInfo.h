@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Nice Boy LLC. All rights reserved.
 //
 
-@import Foundation;
+#import <UIKit/UIKit.h>
+
 
 @interface JTSImageInfo : NSObject
 

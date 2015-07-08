@@ -10,4 +10,16 @@
 
 @interface ITModelImages : NSObject
 
+@property(strong, nonatomic) NSMutableArray *items;
+
+-(void)getImageList;
+
+-(void)getImageByID:(NSInteger)ID;
+
+-(BOOL)saveToCashe;
+
+-(void)clearCashe;
+
+-(NSMutableArray*) loadFromCashe;
+
 @end

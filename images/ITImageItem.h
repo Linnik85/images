@@ -10,4 +10,13 @@
 
 @interface ITImageItem : NSObject
 
+@property(assign,nonatomic) NSInteger imageID;
+@property(strong,nonatomic) NSData* imageData;
+
+@property(strong,nonatomic) NSData* imagePreviewData;
+@property(strong,nonatomic) NSString* imageSize;
+
+-(void) fromDictionary:(NSDictionary*) dictionary;
+-(NSDictionary*) toDictionary;
+
 @end

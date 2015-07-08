@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ITSettings.h"
+#import "ITImageItem.h"
 
 @interface ITImagePresentViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewOutlet;
+
+@property(strong, nonatomic) ITSettings* settings;
+
+@property(strong, nonatomic) ITImageItem* imageItem;
 
 @end

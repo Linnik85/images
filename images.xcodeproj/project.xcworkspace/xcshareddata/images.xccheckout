@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CE0B6AFF-CE2F-466D-B0C0-3A51943B862E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>images</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE6F25D5B320AF21765564419588EC70EC754148</key>
+		<string>https://github.com/Linnik85/images.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>images.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE6F25D5B320AF21765564419588EC70EC754148</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Linnik85/images.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE6F25D5B320AF21765564419588EC70EC754148</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE6F25D5B320AF21765564419588EC70EC754148</string>
+			<key>IDESourceControlWCCName</key>
+			<string>images</string>
+		</dict>
+	</array>
+</dict>
+</plist>

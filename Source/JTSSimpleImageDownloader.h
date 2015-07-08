@@ -7,6 +7,7 @@
 //
 
 @import Foundation;
+#import <UIKit/UIKit.h>
 
 @interface JTSSimpleImageDownloader : NSObject
 

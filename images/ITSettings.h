@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ITModelImages.h"
 
 @interface ITSettings : NSObject
+
+@property(strong,nonatomic)ITModelImages* modelImages;
+
 
 @end

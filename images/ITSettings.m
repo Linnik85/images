@@ -10,4 +10,15 @@
 
 @implementation ITSettings
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+        self.modelImages = [[ITModelImages alloc]init];
+  
+    }
+    return self;
+}
+
 @end

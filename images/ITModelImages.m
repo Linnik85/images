@@ -9,6 +9,7 @@
 #import "ITModelImages.h"
 #import "ITServerManager.h"
 #import "ITImageItem.h"
+#import "SVProgressHUD.h"
 
 
 @interface ITModelImages () <ITServerManagerDelegate>
@@ -122,6 +123,13 @@
     
 }
 
+-(void) progtessLoadImage:(float) totalBytes loadBytes:(float) loadButes{
+    
+    float progress = ((loadButes/(float)totalBytes)*100)/100;
+
+    
+    [SVProgressHUD showProgress:progress];
+}
 
 
 #pragma mark - Save & Load local data

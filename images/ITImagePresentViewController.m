@@ -60,8 +60,6 @@
     
     if (!self.imageItem.imageData.length>0) {
         
-        [SVProgressHUD show];
-        
         [self.settings.modelImages getImageByID:self.imageItem.imageID];
         
     } else {
@@ -118,11 +116,18 @@
     if ([[notification object] isKindOfClass:[NSString class]]) {
         
         [SVProgressHUD dismiss];
-
-        [SVProgressHUD showErrorWithStatus:[notification object]];
         
+       UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error"
+                                   message:[notification object]
+                                  delegate:self
+                         cancelButtonTitle:@"OK"
+                         otherButtonTitles: nil];
+        [alert show];
+    
     }
 }
+
+
 
 
 #pragma mark - Initialization methods
@@ -152,6 +157,8 @@
 
 - (void)backAction {
     
+    [SVProgressHUD dismiss];
+
     [self.navigationController popViewControllerAnimated:YES];
     
 }

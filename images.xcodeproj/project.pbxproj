@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A91E11B4EBE5700FA2AD4 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A91E01B4EBE5700FA2AD4 /* XMLReader.m */; };
 		18127EA31B45CF4C00B820DF /* ITServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EA21B45CF4C00B820DF /* ITServerManager.m */; };
 		18127EAA1B45CFAF00B820DF /* ITImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EA71B45CFAE00B820DF /* ITImageItem.m */; };
 		18127EAB1B45CFAF00B820DF /* ITModelImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 18127EA91B45CFAE00B820DF /* ITModelImages.m */; };
@@ -53,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180A91DF1B4EBE5700FA2AD4 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		180A91E01B4EBE5700FA2AD4 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		18127EA11B45CF4C00B820DF /* ITServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITServerManager.h; sourceTree = "<group>"; };
 		18127EA21B45CF4C00B820DF /* ITServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITServerManager.m; sourceTree = "<group>"; };
 		18127EA61B45CFAE00B820DF /* ITImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITImageItem.h; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 		18C7F52F1B45ADAB0015B4D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				180A91DF1B4EBE5700FA2AD4 /* XMLReader.h */,
+				180A91E01B4EBE5700FA2AD4 /* XMLReader.m */,
 				18C81E8F1B46F36C005DC8BC /* JTSImageViewController */,
 				18C81E8D1B46BC0F005DC8BC /* SOAPEngine64.framework */,
 				18C81E811B469331005DC8BC /* SVProgressHUD */,
@@ -415,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C81E751B464DC1005DC8BC /* ITImageTableViewCell.m in Sources */,
+				180A91E11B4EBE5700FA2AD4 /* XMLReader.m in Sources */,
 				18C81EA01B46F36C005DC8BC /* UIApplication+JTSImageViewController.m in Sources */,
 				18CF2BC91B452FFA00288715 /* AppDelegate.m in Sources */,
 				18C81E9F1B46F36C005DC8BC /* JTSSimpleImageDownloader.m in Sources */,

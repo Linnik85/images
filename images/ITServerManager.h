@@ -21,6 +21,7 @@
 
 -(void) errorResponds:(NSString*) errorDescription;
 
+-(void) progtessLoadImage:(float) totalBytes loadBytes:(float) loadButes;
 
 @end
 
